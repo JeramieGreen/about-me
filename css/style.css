@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    align-self: center;
-    background-image: url("https://media.istockphoto.com/photos/white-old-brick-wall-background-with-lamps-picture-id1284754354?b=1&k=20&m=1284754354&s=170667a&w=0&h=pDJrJkQAt_BQnwWEDoKRMMvQtbwJjOwqLFsgy-sTrm0=");
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://www.maxpixel.net/static/photo/1x/Rough-Chaos-Wall-Background-White-Abrasive-2281265.jpg");
 
 }
 
@@ -12,20 +18,23 @@ h1{
     text-align: center;
     color: darkgreen;
     font-size: 4rem;
-    text-shadow: 3px 3px 3px gray;
+    text-shadow: 3px 3px 3px rgb(44, 75, 128)
 }
 h2{
-    text-align: center;
+    text-align: left;
     color: darkgreen;
     font-size: 2rem;
-    text-shadow: 3px 3px 3px gray;
+    text-shadow: 12px 12px 12px rgb(44, 75, 128);
 }
 p{
-    text-align: center;
+    text-align: left;
     padding: 2rem;
     font-size: 1.5rem;
 }
 
-#boston {
-align-items:center;
+#bean {
+    float: left;
+    width: 400px;
+    color: rgb(44, 75, 128);
+    padding: 35px;
 }
