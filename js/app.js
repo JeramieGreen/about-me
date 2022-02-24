@@ -9,6 +9,7 @@ console.log(usrnm);
 alert('Cheers ' + usrnm + '!');
 
 alert('Guesing game: Please answer the following, yes or no, questions.');
+
 function havePets() {
   let pets = prompt('Do you think I have any pets?').toLowerCase();
 
@@ -62,12 +63,15 @@ function middleName() {
 }
 middleName();
 
-let bean = prompt('Is the city of Boston known for beans?').toLowerCase();
+function cityFact() {
+  let bean = prompt('Is the city of Boston known for beans?').toLowerCase();
 
-if (bean === 'yes' || bean === 'y') {
+  if (bean === 'yes' || bean === 'y') {
   /*console. log*/alert('Correct; and locally the city is reffered to as The Bean or Bean Town!');
-} else if (bean === 'no' || bean === 'n') {
+  } else if (bean === 'no' || bean === 'n') {
   /*console. log*/alert('Wow. You never heard of Boston Baked Beans!!');
-} else {
+  } else {
   /*console. log*/alert('Please answer with yes or no only. Thanks ' + usrnm + '!');
+  }
 }
+cityFact();
