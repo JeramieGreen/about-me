@@ -35,16 +35,20 @@ function weather() {
 }
 weather();
 
-let champ = prompt('Is Boston the championship city?').toLowerCase();
+function champCity() {
+  let champ = prompt('Is Boston the championship city?').toLowerCase();
 
-if (champ === 'yes' || champ === 'y') {
+  if (champ === 'yes' || champ === 'y') {
   /*console. log*/alert('Of course! Evey Boston spots team has current championships.');
-}
-else if (champ === 'no' || champ === 'n') {
+  }
+  else if (champ === 'no' || champ === 'n') {
   /*console. log*/alert('I would feel that way if I was coming from your town too.');
-} else {
+  } else {
   /*console. log*/alert('Please answer with yes or no only. Thanks ' + usrnm + '!');
+  }
 }
+champCity();
+
 
 let bruno = prompt('Is my middle name Bruno?').toLowerCase();
 
