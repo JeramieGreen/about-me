@@ -24,14 +24,16 @@ havePets();
 
 let snow = prompt('Do I like the snow?').toLowerCase();
 
-if (snow === 'yes' || snow === 'y') {
+function weather() {
+  if (snow === 'yes' || snow === 'y') {
   /*console. log*/alert('I take rain over snow; any day of the week.');
-} else if (snow === 'no' || snow === 'n') {
+  } else if (snow === 'no' || snow === 'n') {
   /*console. log*/alert('Correct! We never had snow days, but always had snow growing up. Ha');
-} else {
+  } else {
   /*console. log*/alert('Please answer with yes or no only. Thanks ' + usrnm + '!');
+  }
 }
-
+weather();
 let champ = prompt('Is Boston the championship city?').toLowerCase();
 
 if (champ === 'yes' || champ === 'y') {
