@@ -22,9 +22,9 @@ function havePets() {
 }
 havePets();
 
-let snow = prompt('Do I like the snow?').toLowerCase();
-
 function weather() {
+  let snow = prompt('Do I like the snow?').toLowerCase();
+
   if (snow === 'yes' || snow === 'y') {
   /*console. log*/alert('I take rain over snow; any day of the week.');
   } else if (snow === 'no' || snow === 'n') {
@@ -34,6 +34,7 @@ function weather() {
   }
 }
 weather();
+
 let champ = prompt('Is Boston the championship city?').toLowerCase();
 
 if (champ === 'yes' || champ === 'y') {
