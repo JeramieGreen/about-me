@@ -49,16 +49,18 @@ function champCity() {
 }
 champCity();
 
+function middleName() {
+  let bruno = prompt('Is my middle name Bruno?').toLowerCase();
 
-let bruno = prompt('Is my middle name Bruno?').toLowerCase();
-
-if (bruno === 'yes' || bruno === 'y') {
+  if (bruno === 'yes' || bruno === 'y') {
   /*console. log*/alert('No; and nobody is suppose to talk about Bruno.');
-} else if (bruno === 'no' || bruno === 'n') {
+  } else if (bruno === 'no' || bruno === 'n') {
   /*console. log*/alert('Correct! Now off the subject of Bruno; why did you bring it up?!');
-} else {
+  } else {
   /*console. log*/alert('Please answer with yes or no only. Thanks ' + usrnm + '!');
+  }
 }
+middleName();
 
 let bean = prompt('Is the city of Boston known for beans?').toLowerCase();
 
